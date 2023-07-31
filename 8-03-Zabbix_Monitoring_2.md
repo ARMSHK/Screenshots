@@ -29,4 +29,4 @@
 
 #### Результат
 
-https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Zabbix_Dashboard.png
+![Dashboard](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Zabbix_Dashboard.png)
