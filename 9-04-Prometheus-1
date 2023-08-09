@@ -1,0 +1,25 @@
+# Домашнее задание к занятию «Система мониторинга Prometheus» - Romashkova Alina
+
+### Задание 1
+Установите Prometheus.
+
+#### Результат
+
+1. Статус работы prometheus.service:
+
+![Prometheus_console_status](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Prometheus_console_status.png)
+
+2. Начальная страница Prometheus:
+
+![Prometheus_init_page](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Prometheus_init_page.png)
+
+### Задание 2 и Задание 3
+Установите Node Exporter. Подключите Node Exporter к серверу Prometheus.
+
+#### Результат
+
+1. Созданы хосты ARS-1 и AR-2
+2. Привязан шаблон Linux by Zabbix Agent
+3. Проверка обновления Latest Data:+
+
+![Latest_Data_Update](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Zabbix_Latest%20data_Enabled.png)
