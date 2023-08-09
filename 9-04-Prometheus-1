@@ -18,8 +18,14 @@
 
 #### Результат
 
-1. Созданы хосты ARS-1 и AR-2
-2. Привязан шаблон Linux by Zabbix Agent
-3. Проверка обновления Latest Data:+
+1. Статус работы node_exporter
 
-![Latest_Data_Update](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Zabbix_Latest%20data_Enabled.png)
+![Node_exporter_status](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Node_exporter_status.png)
+
+2. Prometheus - Configuration
+
+![Prometheus_status_configuration](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Prometheus_status_configuration.png)
+
+3. Prometheus - Status. Два endpoint'a на скриншоте:
+
+![Latest_Data_Update](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Prometheus_targets_node_exporter.png)
