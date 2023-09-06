@@ -9,30 +9,25 @@
 
 #### Результат
 
-![Router Configuration](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Router_Configuration.png)
+- Router 1, 2 config:
 
-### Задание 2 
+![Router 1](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Router_1_Config.png)
 
-Установите Zabbix Agent на два хоста.
+![Router 2](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Router_2_Config.png)
 
-#### Процесс выполнения
-1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
-2. Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
-3. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
-4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
-5. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+- ICMP from PC to Server:
 
-#### Требования к результаты 
-1. Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
-2. Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
-3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
-4. Приложите в файл README.md текст использованных команд в GitHub
+![ICMP](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/ICMP_Route_Succcessful.png)
+
+### Задание 2
+- Запустите две виртуальные машины Linux, установите и настройте сервис Keepalived как в лекции, используя пример конфигурационного [файла](1/keepalived-simple.conf).
+- Настройте любой веб-сервер (например, nginx или simple python server) на двух виртуальных машинах
+- Напишите Bash-скрипт, который будет проверять доступность порта данного веб-сервера и существование файла index.html в root-директории данного веб-сервера.
+- Настройте Keepalived так, чтобы он запускал данный скрипт каждые 3 секунды и переносил виртуальный IP на другой сервер, если bash-скрипт завершался с кодом, отличным от нуля (то есть порт веб-сервера был недоступен или отсутствовал index.html). Используйте для этого секцию vrrp_script
+- На проверку отправьте получившейся bash-скрипт и конфигурационный файл keepalived, а также скриншот с демонстрацией переезда плавающего ip на другой сервер в случае недоступности порта или файла index.html
 
 #### Результат
 
-Подключенные хосты (2)
-![Hosts](https://github.com/ARMSHK/Screenshots/blob/main/img/Zabbix-sys-rep.png)
+- Keepialived redirectiom from 10.0.2.16 (main) to 10.0.2.15 (reserv)
 
-Сбор логов с Забикса
-
-![Logs](https://github.com/ARMSHK/Screenshots/blob/main/img/Zabbix-act-log.png)
+![Keepalived_Redirection]([https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Router_Configuration.png](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)
