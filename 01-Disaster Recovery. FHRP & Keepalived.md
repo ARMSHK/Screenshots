@@ -28,6 +28,11 @@
 
 #### Результат
 
+- Keepialived Conf & Bash Script
+
+  ![Keepalived_COnf](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_COnf.png)
+  ![Keepalived_Bash](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Bash.png)
+
 - Keepialived redirectiom from 10.0.2.16 (main) to 10.0.2.15 (reserv)
 
 ![Keepalived_Redirection](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)
