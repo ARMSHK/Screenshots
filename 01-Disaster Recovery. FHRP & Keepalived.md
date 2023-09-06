@@ -30,4 +30,4 @@
 
 - Keepialived redirectiom from 10.0.2.16 (main) to 10.0.2.15 (reserv)
 
-![Keepalived_Redirection]([https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Router_Configuration.png](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)
+![Keepalived_Redirection](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Keepalived_Redirection.png)
