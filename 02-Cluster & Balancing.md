@@ -26,4 +26,4 @@
 
 - Haproxy + example (веб 3 сервер ложится при этом) (curl -H 'Host: example-http.com' http://127.0.0.1)
 
-[Haproxy_web] (https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Haproxy%20%2B%20example.png)
+[Haproxy_web](https://github.com/ARMSHK/HW-SYS-19/blob/main/img/Haproxy%20%2B%20example.png)
